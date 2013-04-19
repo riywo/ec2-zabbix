@@ -1,0 +1,18 @@
+aws:
+  access_key_id    : "AWS_ACCESS_KEY_ID"
+  secret_access_key: "AWS_SECRET_ACCESS_KEY"
+  keypare_name     : "AWS_KEYPARE_NAME"
+  private_key_path : "AWS_PRIVATE_KEY_PATH"
+  instance_type    : "t1.micro"
+  availability_zone: "us-east-1"
+  security_group   :
+    - "default"
+mysql:
+  server_root_password  : "rootpass"
+  server_debian_password: "debpass"
+  server_repl_password  : "replpass"
+zabbix:
+  server:
+    dbpassword: "zabbixpass"
+  web:
+    fqdn      : "zabbix.example.com"
